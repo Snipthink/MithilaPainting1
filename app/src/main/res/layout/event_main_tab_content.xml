@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="fill_vertical"
+    android:id="@+id/RECENT_layout"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context="layout.EventTab">
+    <android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <TableLayout
+      android:paddingBottom="18dp"
+      android:layout_marginTop="70dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:gravity="center_horizontal"
+      android:background="@color/colorPrimary"
+      android:layout_width="match_parent"
+      android:paddingRight="10dp"
+      android:paddingLeft="10dp"
+
+
+      android:layout_height="match_parent">
+      
+      <TableRow
+          android:background="@color/event_color_mith"
+          
+          android:layout_marginTop="35dp">
+
+          <TextView
+              android:id="@+id/textView2"
+              android:padding="5dp" 
+              
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+              
+              android:padding="5dp"  
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"  
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"  
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"  
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"  
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"  
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"  
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"  
+              android:text="AUG"/>
+          
+          <TextView
+              android:padding="5dp"  
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+              
+              android:padding="5dp"  
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"  
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="DEC"
+
+
+              />
+          
+      </TableRow>
+       <TableRow
+          android:background="@color/event_color"
+          >
+
+          <TextView
+              android:id="@+id/textView1"
+              android:padding="5dp"
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="AUG"/>
+
+          <TextView
+              android:padding="5dp"
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+
+              android:padding="5dp"
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+
+              android:text="DEC"
+
+
+              />
+
+      </TableRow>
+
+
+
+      <TableRow
+          android:background="@color/event_color"
+          >
+
+          <TextView
+             
+              android:padding="5dp"
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="AUG"/>
+
+          <TextView
+              android:padding="5dp"
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+
+              android:padding="5dp"
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+
+              android:text="DEC"
+
+
+              />
+
+      </TableRow>
+
+      <TableRow
+          android:background="@color/event_color"
+          >
+
+          <TextView
+             
+              android:padding="5dp"
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="AUG"/>
+
+          <TextView
+              android:padding="5dp"
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+
+              android:padding="5dp"
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+
+              android:text="DEC"
+
+
+              />
+
+      </TableRow>
+      <TableRow
+          android:background="@color/event_color"
+          >
+
+          <TextView
+             
+              android:padding="5dp"
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="AUG"/>
+
+          <TextView
+              android:padding="5dp"
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+
+              android:padding="5dp"
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+
+              android:text="DEC"
+
+
+              />
+
+      </TableRow>
+      <TableRow
+          android:background="@color/event_color"
+          >
+
+          <TextView
+             
+              android:padding="5dp"
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="AUG"/>
+
+          <TextView
+              android:padding="5dp"
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+
+              android:padding="5dp"
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+
+              android:text="DEC"
+
+
+              />
+
+      </TableRow>
+      <TableRow
+          android:background="@color/event_color"
+          >
+
+          <TextView
+             
+              android:padding="5dp"
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="AUG"/>
+
+          <TextView
+              android:padding="5dp"
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+
+              android:padding="5dp"
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+
+              android:text="DEC"
+
+
+              />
+
+      </TableRow>
+      <TableRow
+          android:background="@color/event_color"
+          >
+
+          <TextView
+             
+              android:padding="5dp"
+              android:gravity="center"
+              android:text="Event\t\t\t\t|"
+              android:textSize="8sp" />
+
+
+          <TextView
+
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="JAN"/>
+
+
+
+          <TextView
+              android:padding="5dp"
+              android:textSize="8sp"
+              android:text="FEB"/>
+
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAR"
+              android:textSize="8sp"
+              />
+          <TextView
+              android:padding="5dp"
+              android:text="APR"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="MAY"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUN"
+              android:textSize="8sp"
+              />
+
+          <TextView
+              android:padding="5dp"
+              android:text="JUL"
+
+              android:textSize="8sp"
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="AUG"/>
+
+          <TextView
+              android:padding="5dp"
+              android:text="SEP"
+              android:textSize="8sp"
+
+              />
+          <TextView
+
+              android:padding="5dp"
+              android:text="OCT"
+              android:textSize="8sp"
+
+              />
+
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+              android:text="NOV"
+
+
+              />
+          <TextView
+              android:textSize="8sp"
+              android:padding="5dp"
+
+              android:text="DEC"
+
+
+              />
+
+      </TableRow>
+
+
+
+
+
+
+      
+  </TableLayout>
+</android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
